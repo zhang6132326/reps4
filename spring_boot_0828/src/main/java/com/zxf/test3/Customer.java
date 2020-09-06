@@ -8,5 +8,6 @@ public class Customer implements OrderInterface{
     }
     /*
         我增加了东西
+          要不在写点什么吧。。。。。？
      */
 }
