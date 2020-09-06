@@ -6,4 +6,7 @@ public class Customer implements OrderInterface{
     public String order(String foodname){
         return "已经下单了"+foodname;
     }
+    /*
+        我增加了东西
+     */
 }
