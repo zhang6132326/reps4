@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+    <bean id="person" class="com.zxf.spring.Person">
+        <property name="name" value="zhang3"/>
+        <property name="id" value="18"/>
+        <property name="food" ref="food"/>
+        <property name="gift">
+            <value>
+                paoniao=100,
+                suszo=45,
+                dioa=7.8,
+                url=http://www.qq.com
+            </value>
+        </property>
+        <property name="list">
+            <array>
+                <value>a</value>
+                <value>b</value>
+                <value>c</value>
+                <value>d</value>
+            </array>
+        </property>
+        <property name="set">
+             <array>
+                 <value>a1</value>
+                 <value>a2</value>
+                 <value>a3</value>
+                 <value>a4</value>
+             </array>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="a" value="1"/>
+                <entry key="b" value="2"/>
+                <entry key="c" value="3"/>
+                <entry key="d" value="4"/>
+                <entry key="e" value="5"/>
+            </map>
+        </property>
+    </bean>
+    <bean id="food" class="com.zxf.spring.Food">
+        <property name="fid" value="2455"/>
+        <property name="fname" value="jdddd"/>
+    </bean>
+    <bean id="carFactory" class="com.zxf.spring2.CarFactory">
+        <property name="name" value="bmw"/>
+    </bean>
+
+    <bean id="car" factory-bean="carFactory" factory-method="getCar">
+
+    </bean>
+</beans>
