@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.LogMapper">
+      <select id="selAll"  resultType="log">
+          SELECT * from log
+      </select>
+    <!-- 当多参数时,不需要写parameterType -->
+    <select id="selByAccInAccount" resultType="log">
+        SELECT * from log where accIn=#{accin} and accOut=#{accout}
+    </select>
+
+    <select id="selByAccinAccout2" resultType="log">
+        SELECT * from log where 1=1
+        <if test=" accin!=null and accin!='' ">
+            and accIn=#{accin}
+        </if>
+        <if test=" accout!=null and accout!='' ">
+            and accOut=#{accout}
+        </if>
+    </select>
+
+    <select id="selByAccinAccout3" resultType="log">
+        SELECT * from log
+        <where>
+        <if test=" accin!=null and accin!='' ">
+            and accIn=#{accin}
+        </if>
+        <if test=" accout!=null and accout!='' ">
+            and accOut=#{accout}
+        </if>
+        </where>
+    </select>
+
+
+
+    <select id="selByAccinAccout4" resultType="log">
+        SELECT * from log
+        <where>
+            <choose>
+            <when test=" accin!=null and accin!='' ">
+                and accIn=#{accin}
+            </when>
+            <when test=" accout!=null and accout!='' ">
+                and accOut=#{accout}
+            </when>
+            </choose>
+        </where>
+    </select>
+
+    <update id="upd1" parameterType="log">
+        UPDATE log
+
+        <set>
+            id=#{id},
+            <if test=" accIn!=null and accIn!='' ">
+                accIn=#{accIn},
+            </if>
+            <if test=" accOut!=null and accOut!='' ">
+                accOut=#{accOut},
+            </if>
+        </set>
+        WHERE id=#{id}
+    </update>
+
+
+
+
+
+</mapper>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.EmployeeMapper">
+    <!--二级缓存 -->
+    <cache eviction="FIFO" flushInterval="6000" readOnly="false" size="1024"></cache>
+
+    <sql id="emp_1">
+        emp_no,emp_name,dept_id,emp_gender
+    </sql>
+     <select id="getAll" resultType="emp" databaseId="mysql">
+         select * from employee_basic
+     </select>
+    <select id="getAll" resultType="emp" databaseId="oracle">
+        select ENAME emp_name     from emp
+    </select>
+    <select id="getByIdEmp" resultType="emp">
+        select * from employee_basic where emp_no=#{emp_no}
+    </select>
+
+    <!--级联属性的定义方式 -->
+    <resultMap id="emp_dept" type="emp">
+        <id property="emp_no" column="emp_no"/>
+        <result property="emp_name" column="emp_name"/>
+        <result property="dept.dept_id" column="dept_id"/>
+        <result property="dept.dept_name" column="dept_name"/>
+        <result property="dept.dept_manager" column="dept_manager"/>
+    </resultMap>
+
+    <resultMap id="emp_dept2" type="emp">
+        <id property="emp_no" column="emp_no"/>
+        <result property="emp_name" column="emp_name"/>
+        <association property="dept" javaType="dept">
+            <id property="dept_id" column="dept_id"/>
+            <result property="dept_name" column="dept_name"/>
+            <result property="dept_manager" column="dept_manager"/>
+        </association>
+
+    </resultMap>
+    <select id="getByIdEmp_dept" resultMap="emp_dept">
+        select e.emp_no,e.emp_name,d.dept_name,d.dept_id,d.dept_manager
+          from employee_basic e,dept d
+           where e.dept_id=d.dept_id and e.emp_no=#{emp_no}
+    </select>
+    <!-- 分步骤查询-->
+    <resultMap id="emp_dept3" type="emp">
+        <id property="emp_no" column="emp_no"/>
+        <result property="emp_name" column="emp_name"/>
+        <association property="dept" select="com.zxf.mapper.DeptMapper.getDeptById" column="dept_id" fetchType="lazy">
+
+        </association>
+    </resultMap>
+    <select id="getByidEmp_dept2" resultMap="emp_dept3" >
+        select * from employee_basic where emp_no=#{emp_no}
+    </select>
+
+    <select id="getByIdDept" resultType="emp">
+        select * from employee_basic where dept_id=#{dept_id}
+    </select>
+    <select id="getAll2" resultType="emp">
+        select * from employee_basic
+
+        <where>
+        <!-- 如果这里没有<where>标签下面如果有空的地方，就会报错-->
+         <if test="emp_no!=null and emp_no!='' ">
+              emp_no like #{emp_no}
+         </if>
+        <if test="emp_name!=null and emp_name!='' ">
+            or  emp_name like #{emp_name}
+        </if>
+        </where>
+    </select>
+    <select id="getAll3" resultType="emp">
+        select * from employee_basic
+        <where>
+            <!--以下只会运行一个分支 -->
+            <choose>
+                <when test="emp_no!=null and emp_no!=''">
+                    emp_no like #{emp_no}
+                </when>
+                <when test="emp_name!=null and emp_name!=''">
+                      emp_name like #{emp_name}
+                </when>
+                <!--上面都不满足，运行这个其他分支 -->
+                <otherwise>
+                    emp_gender='女'
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    <update id="updateByIdEmp">
+        update employee_basic
+        <set>
+            <if test="emp_gender!=null">
+                emp_gender=#{emp_gender},
+            </if>
+            <if test="emp_name!=null">
+                emp_name=#{emp_name}
+            </if>
+        </set>
+        WHERE emp_no=#{emp_no}
+    </update>
+    <select id="getByidEmps" resultType="emp">
+        select * from employee_basic where emp_no in
+          <foreach collection="listabc" item="emp_no" open="(" close=")" separator=",">
+              #{emp_no}
+          </foreach>
+    </select>
+    <insert id="saveEmp">
+        insert into employee_basic (emp_no,emp_name,dept_id,emp_gender) values
+        <foreach collection="es" item="e" separator=",">
+            (#{e.emp_no},#{e.emp_name},#{e.dept_id},#{e.emp_gender})
+        </foreach>
+    </insert>
+
+    <select id="getAll4" resultType="emp">
+        select  <include refid="emp_1"/>    from employee_basic
+    </select>
+    <insert id="saveEmp2">
+        insert into employee_basic (<include refid="emp_1"/>) VALUES (#{emp_no},#{emp_name},#{dept_id},#{emp_gender})
+    </insert>
+
+</mapper>

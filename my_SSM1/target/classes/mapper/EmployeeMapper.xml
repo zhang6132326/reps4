@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.EmployeeMapper">
+     <insert id="saveEmp" parameterType="employee">
+         insert into employee_basic (emp_no,emp_name,dept_id,emp_gender,emp_email,emp_nation,emp_marriage,emp_health,emp_zzmm,emp_blood,emp_state)
+         VALUES
+         (#{emp_no},#{emp_name},#{dept_id},#{emp_gender},#{emp_email},#{emp_nation},#{emp_marriage},#{emp_health},#{emp_zzmm},#{emp_blood},#{emp_state})
+     </insert>
+    <select id="getAllEmp" resultType="employee">
+        SELECT * from employee_basic
+    </select>
+</mapper>

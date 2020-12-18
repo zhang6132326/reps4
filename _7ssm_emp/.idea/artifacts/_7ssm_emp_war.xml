@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_7ssm_emp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="_7ssm_emp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="_7ssm_emp:war exploded" />
+    </root>
+  </artifact>
+</component>

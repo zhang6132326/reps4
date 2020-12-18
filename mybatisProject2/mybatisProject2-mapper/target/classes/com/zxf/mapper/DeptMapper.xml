@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.DeptMapper">
+    <!-- 根据 dept_id 查询部门信息，返回resultMap -->
+    <select id="selectDeptById" parameterType="string" resultMap="deptResultMap">
+        SELECT * from dept where dept_id=#{dept_id}
+    </select>
+    <!-- 映射 Dept 对象的 resultMap -->
+    <resultMap id="deptResultMap" type="dept">
+        <id property="dept_id" column="dept_id" />
+        <result property="dept_name" column="dept_name" />
+        <result property="dept_manager" column="dept_manager" />
+        <!-- 一对多关联映射:collection fetchType="lazy"表示延迟加载 -->
+         <collection property="employees" javaType="ArrayList"
+                     select="com.zxf.mapper.EmployeeMapper.selectEmployeeByDeptId"
+                     column="dept_id">
+             <id property="emp_no" column="emp_no" />
+             <result property="emp_name" column="emp_name" />
+             <result property="dept_id" column="dept_id" />
+             <result property="emp_gender" column="emp_gender" />
+             <result property="emp_email" column="emp_email" />
+         </collection>
+    </resultMap>
+
+
+</mapper>

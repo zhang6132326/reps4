@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.DeptMapper">
+    <resultMap id="d_e" type="dept">
+        <id property="dept_id" column="dept_id"/>
+        <result property="dept_name" column="dept_name"/>
+        <collection property="employees" ofType="employee">
+            <id property="emp_no" column="emp_no"/>
+            <result property="emp_name" column="emp_name"/>
+            <result property="emp_state" column="emp_state"/>
+            <result property="dept_id" column="dept_id"/>
+        </collection>
+    </resultMap>
+
+     <select id="getall_dept_allemp" resultMap="d_e">
+         SELECT * from dept d,employee_basic e where d.dept_id=e.dept_id
+     </select>
+
+    <resultMap id="d_e2" type="dept">
+        <id property="dept_id" column="dept_id"/>
+        <result property="dept_name" column="dept_name"/>
+        <collection property="employees" ofType="employee" column="dept_id"
+                    select="com.zxf.mapper.EmployeeMapper.findBydeptIdEmp"/>
+    </resultMap>
+    <!-- 分2个SQL语句使用延迟加载-->
+    <select id="getall_dept_allemp2" resultMap="d_e2">
+        SELECT * from dept
+    </select>
+    <!-- 根据部门ID查询部门信息-->
+    <select id="findByIdDept" resultType="dept" parameterType="string">
+        select * from dept where dept_id=#{dept_id}
+    </select>
+</mapper>

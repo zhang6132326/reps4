@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/jdbc
+		http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+  <!--开启注解扫描  Spring层处理mapper service这2个层.处理层controller由SpringMVC层处理-->
+    <context:component-scan base-package="com.zxf">
+       <!--配置哪些注解不扫描  不扫描controller处理类 -->
+        <context:exclude-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!-- Spring整合Mybatis-->
+        <!-- 连接池-->
+     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+         <property name="jdbcUrl" value="jdbc:mysql://192.168.0.148:3306/test"/>
+         <property name="user" value="root"/>
+         <property name="password" value="xtfvmtd198154"/>
+     </bean>
+    <!--SqlSessionFactory 工厂 -->
+     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+         <property name="dataSource" ref="dataSource"/>
+     </bean>
+    <!--配置mapper接口 -->
+    <bean id="myMapper" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.zxf.mapper"/>
+    </bean>
+</beans>

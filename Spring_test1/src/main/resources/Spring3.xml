@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/aop
+          http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+     <bean id="dept" class="com.zxf.bean2.Dept">
+          <property name="dept_id" value="1001"/>
+          <property name="dept_name" value="研发"/>
+                  <property name="emp_list">
+               <list>
+                    <value>张三</value>
+                    <value>李四</value>
+                    <value>王五</value>
+                    <value>赵柳</value>
+                    <value>马奇</value>
+               </list>
+          </property>
+          <!-- emp_list为List<Employee>
+               还有一个地方这里的集合类型是Employee类型，不是普通数据类型
+               所以需要用ref 引用一下Employee的Bean id才可以
+          -->
+          <property name="employeeList">
+               <list>
+                    <ref bean="e1"/>
+                    <ref bean="e2"/>
+                    <ref bean="e3"/>
+               </list>
+          </property>
+          <!-- maps为Map<String,String> maps-->
+          <property name="maps">
+               <map>
+                    <entry>
+                         <key>
+                              <value>a1</value>
+                         </key>
+                         <value>aaaaa</value>
+                    </entry>
+                    <entry>
+                         <key>
+                              <value>b1</value>
+                         </key>
+                         <value>bbbbb</value>
+                    </entry>
+                    <entry>
+                         <key>
+                              <value>c1</value>
+                         </key>
+                         <value>cccccc</value>
+                    </entry>
+               </map>
+          </property>
+     </bean>
+
+  <bean id="e1" class="com.zxf.bean2.Employee">
+       <property name="emp_id" value="001"/>
+       <property name="emp_name" value="员工1"/>
+  </bean>
+     <bean id="e2" class="com.zxf.bean2.Employee">
+          <property name="emp_id" value="002"/>
+          <property name="emp_name" value="员工2"/>
+     </bean>
+     <bean id="e3" class="com.zxf.bean2.Employee">
+          <property name="emp_id" value="003"/>
+          <property name="emp_name" value="员工3"/>
+     </bean>
+
+</beans>

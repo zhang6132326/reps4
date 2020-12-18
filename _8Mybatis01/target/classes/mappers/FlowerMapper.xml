@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zxf.mapper.FlowerMapper">
+    <!--
+        获取自增主键 useGeneratedKeys="true" keyProperty="id"
+    -->
+         <insert id="addFlower"  parameterType="flower" useGeneratedKeys="true" keyProperty="id">
+             insert into flower (name,price,production) values(#{name},#{price},#{production})
+         </insert>
+
+    <select id="getById_nameFlower"  resultType="flower">
+        select * from flower where id=#{id} and name=#{name}
+    </select>
+    <select id="getByMapFlower" resultType="flower">
+          select * from flower where id=#{id} and name=#{name}
+    </select>
+    <select id="getAllFlower" resultType="flower">
+        select * from flower
+    </select>
+</mapper>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mysql@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="chapter3"/>
+    <schema id="3" parent="1" name="chapter5"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="test">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="7" parent="6" name="account"/>
+    <table id="8" parent="6" name="cst_customer"/>
+    <table id="9" parent="6" name="flower"/>
+    <table id="10" parent="6" name="log"/>
+    <table id="11" parent="6" name="myip"/>
+    <table id="12" parent="6" name="people"/>
+    <table id="13" parent="6" name="student"/>
+    <table id="14" parent="6" name="t1"/>
+    <table id="15" parent="6" name="teacher"/>
+    <table id="16" parent="6" name="users"/>
+    <column id="17" parent="7" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="18" parent="7" name="accno">
+      <Position>2</Position>
+      <DataType>VARCHAR(18)|12</DataType>
+    </column>
+    <column id="19" parent="7" name="password">
+      <Position>3</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <column id="20" parent="7" name="balance">
+      <Position>4</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+    </column>
+    <column id="21" parent="7" name="name">
+      <Position>5</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+    </column>
+    <index id="22" parent="7" name="accno">
+      <ColNames>accno</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="23" parent="7" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="24" parent="8" name="cust_id">
+      <Position>1</Position>
+      <DataType>BIGINT(19)|-5</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="25" parent="8" name="cust_name">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="26" parent="8" name="cust_address">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="27" parent="8" name="cust_source">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="28" parent="8" name="cust_industry">
+      <Position>5</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="29" parent="8" name="cust_level">
+      <Position>6</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="30" parent="8" name="cust_phone">
+      <Position>7</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="31" parent="8" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>cust_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="32" parent="9" name="id">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="33" parent="9" name="name">
+      <Position>2</Position>
+      <Comment>花名</Comment>
+      <DataType>VARCHAR(30)|12</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="34" parent="9" name="price">
+      <Position>3</Position>
+      <Comment>价格</Comment>
+      <DataType>FLOAT(12)|7</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="9" name="production">
+      <Position>4</Position>
+      <Comment>原产地</Comment>
+      <DataType>VARCHAR(30)|12</DataType>
+    </column>
+    <key id="36" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="37" parent="10" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="38" parent="10" name="accIn">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+    </column>
+    <column id="39" parent="10" name="accOut">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+    </column>
+    <column id="40" parent="10" name="money">
+      <Position>4</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+    </column>
+    <key id="41" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="42" parent="11" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="43" parent="11" name="ip_address">
+      <Position>2</Position>
+      <DataType>VARCHAR(30)|12</DataType>
+    </column>
+    <column id="44" parent="11" name="ip_date">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="45" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="46" parent="12" name="id">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="47" parent="12" name="name">
+      <Position>2</Position>
+      <Comment>姓名</Comment>
+      <DataType>VARCHAR(30)|12</DataType>
+    </column>
+    <column id="48" parent="12" name="age">
+      <Position>3</Position>
+      <Comment>年龄</Comment>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <key id="49" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="50" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="51" parent="13" name="name">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+    </column>
+    <column id="52" parent="13" name="age">
+      <Position>3</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <column id="53" parent="13" name="tid">
+      <Position>4</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <key id="54" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="55" parent="13" name="fk_teacher">
+      <ColNames>tid</ColNames>
+      <RefSchemaName>test</RefSchemaName>
+      <RefTableName>teacher</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="56" parent="14" name="tid">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="57" parent="14" name="tname">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+    </column>
+    <key id="58" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="59" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="60" parent="15" name="name">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+    </column>
+    <key id="61" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="62" parent="16" name="userid">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="63" parent="16" name="username">
+      <Position>2</Position>
+      <DataType>VARCHAR(30)|12</DataType>
+    </column>
+    <column id="64" parent="16" name="userage">
+      <Position>3</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <key id="65" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userid</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire="byName">
+    <bean id="stu" class="com.zxf.bean.Student">
+        <property name="name" value="zhang"/>
+        <property name="age" value="23"/>
+        <property name="food" ref="food"/>
+        <property name="list">
+            <array>
+                <value>a</value>
+                <value>b</value>
+                <value>c</value>
+            </array>
+        </property>
+        <property name="set">
+            <set>
+                <value>seta</value>
+                <value>setb</value>
+                <value>setc</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="a" value="1"/>
+                <entry key="b" value="2"/>
+                <entry key="c" value="3"/>
+                <entry key="d" value="4"/>
+            </map>
+        </property>
+        <property name="array">
+            <array>
+                <value>arra</value>
+                <value>arrb</value>
+                <value>arrc</value>
+            </array>
+        </property>
+        <property name="preferences">
+            <value>
+                url=http://www.qq.com,
+                age=45,
+                price=-921
+            </value>
+        </property>
+
+    </bean>
+    <bean id="food" class="com.zxf.bean.Food"/>
+</beans>

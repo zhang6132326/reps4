@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-test2/Spring-test2.iml" filepath="$PROJECT_DIR$/Spring-test2/Spring-test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-test3/Spring-test3.iml" filepath="$PROJECT_DIR$/Spring-test3/Spring-test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-web1/Spring-web1.iml" filepath="$PROJECT_DIR$/Spring-web1/Spring-web1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringProject.iml" filepath="$PROJECT_DIR$/SpringProject.iml" />
+    </modules>
+  </component>
+</project>

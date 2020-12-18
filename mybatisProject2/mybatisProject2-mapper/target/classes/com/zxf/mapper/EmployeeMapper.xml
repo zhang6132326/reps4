@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.EmployeeMapper">
+    <!-- 根据 emp_no 查询 Employee，返回 resultMap -->
+      <select id="selectEmployeeById" parameterType="String" resultMap="employeeMap">
+          SELECT * FROM employee_basic WHERE emp_no=#{id}
+      </select>
+    <!-- 映射 Employee 对象的resultMap -->
+    <resultMap id="employeeMap" type="Employee">
+        <id property="emp_no" column="emp_no"></id>
+        <result property="emp_name" column="emp_name"></result>
+        <result property="dept_id" column="dept_id"></result>
+        <result property="emp_gender" column="emp_gender"></result>
+        <result property="emp_email" column="emp_email"></result>
+        <!-- 一对一关联映射:association -->
+          <association property="employeeSchool" column="emp_no"
+                       select="com.zxf.mapper.EmployeeSchoolMapper.selectEmployeeSchoolById"
+          javaType="EmployeeSchool"/>
+
+    </resultMap>
+
+    <!-- 根据部门 dept_id 查询员工信息，返回resultMap -->
+
+    <select id="selectEmployeeByDeptId" parameterType="string" resultMap="employeeResultMap">
+        SELECT * FROM employee_basic WHERE dept_id = #{dept_id}
+    </select>
+
+    <resultMap id="employeeResultMap" type="Employee">
+        <id property="emp_no" column="emp_no"></id>
+        <result property="emp_name" column="emp_name"></result>
+        <result property="dept_id" column="dept_id"></result>
+        <result property="emp_gender" column="emp_gender"></result>
+        <result property="emp_email" column="emp_email"></result>
+        <!-- 多对一关联映射:association -->
+        <association property="dept" javaType="dept" column="dept_id">
+            <id property="dept_id" column="dept_id" />
+            <result property="dept_name" column="dept_name" />
+            <result property="dept_manager" column="dept_manager" />
+        </association>
+    </resultMap>
+
+
+
+</mapper>

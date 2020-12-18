@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--主要是让日期配置生效  @DateTimeFormat(pattern = "yyyy-MM-dd")
+    <mvc:annotation-driven></mvc:annotation-driven>
+    -->
+    <context:component-scan base-package="com.zxf"/>
+    <!-- 试图解析器  进行页面跳转 -->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+          <!-- 跳转页面的路径-->
+             <property name="prefix" value="/WEB-INF/page/"/>
+          <!-- 跳转页面的后缀名称-->
+             <property name="suffix" value=".jsp"/>
+    </bean>
+    <!-- 配置日期转换器-->
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="com.zxf.controller.ToDateValues"/>
+            </set>
+        </property>
+    </bean>
+    <mvc:annotation-driven conversion-service="conversionService"/>
+</beans>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.JobMapper">
+     <resultMap id="job_emp" type="job">
+         <id property="job_id" column="job_id"/>
+         <result property="job_name" column="job_name"/>
+         <result property="job_task" column="job_task"/>
+         <collection property="employees" ofType="employee">
+             <id property="emp_no" column="emp_no"/>
+             <result property="emp_name" column="emp_name"/>
+         </collection>
+     </resultMap>
+    <select id="getall_job_emp" resultMap="job_emp">
+          select * from employee_basic e
+	 right outer join employee_job	ej on e.emp_no=ej.emp_no
+     right outer join job j on j.job_id = ej.job_id
+    </select>
+</mapper>

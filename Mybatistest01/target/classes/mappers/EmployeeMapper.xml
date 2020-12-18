@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        <!--
+        namespace   mapper接口的全路径
+         -->
+<mapper namespace="com.zxf.mapper.EmployeeMapper">
+    <!--定义SQL语句 -->
+    <sql id="findall-emp">
+        SELECT * from employee_basic
+    </sql>
+<!--
+    id属性 接口中方法名字一致
+     resultType属性 包名+类名
+-->
+<select id="findAll" resultType="Employee">
+    SELECT * from employee_basic
+</select>
+    <select id="findEmpByid" parameterType="string" resultType="Employee">
+          <!--emp_no=#{emp_no_xx} 其中 emp_no_xx随便写-->
+        select * from employee_basic where emp_no=#{emp_no_xx}
+    </select>
+    <insert id="saveEmp" parameterType="Employee">
+        insert into employee_basic(emp_no,emp_name,dept_id,emp_gender,
+        emp_email,emp_nation,emp_marriage,emp_health,emp_zzmm,emp_blood,emp_state)
+         values(#{emp_no},#{emp_name},#{dept_id},#{emp_gender},#{emp_email},#{emp_nation},#{emp_marriage},#{emp_health},#{emp_zzmm},#{emp_blood},#{emp_state})
+    </insert>
+    <update id="updateEmp" parameterType="Employee">
+        update employee_basic set emp_name=#{emp_name},dept_id=#{dept_id},emp_gender=#{emp_gender},emp_email=#{emp_email},
+        emp_nation=#{emp_nation},emp_marriage=#{emp_marriage},emp_health=#{emp_health},
+        emp_zzmm=#{emp_zzmm},emp_blood=#{emp_blood},emp_state=#{emp_state}
+        where emp_no=#{emp_no}
+    </update>
+    <delete id="delEmp" parameterType="string">
+        DELETE from employee_basic WHERE emp_no=#{emp_no}
+    </delete>
+    <!-- 这个是模糊查询 没有使用%%通配符，需要在调用的时候填写
+          预编译方式，可以防止SQL注入问题
+    <select id="findEmpByname" resultType="com.zxf.pojo.Employee" parameterType="string">
+        select * from employee_basic where emp_name like #{emp_name}
+    </select>
+    -->
+    <!--我们这里写了%通配符，在调用的方法中就不用写了
+         SQL拼接的方式，不能防止SQL注入。
+     -->
+    <select id="findEmpByname" resultType="Employee" parameterType="string">
+        select * from employee_basic where emp_name like '%${value}%'
+    </select>
+<select id="getCount" resultType="int">
+    select count(*) from employee_basic
+</select>
+<!-- if 拼接查询 -->
+    <select id="finEmp1" parameterType="Employee" resultType="Employee">
+        <include refid="findall-emp"/>
+        <!-- SELECT * from employee_basic-->
+                    <where>
+            <if test="emp_name !=null and emp_name !=''">
+                and emp_name like#{emp_name}
+            </if>
+            <if test="emp_email !=null and emp_email !=''">
+                and emp_email like#{emp_email}
+            </if>
+        </where>
+    </select>
+    <select id="findbyForeach" resultType="Employee"  parameterType="Employee">
+        <!-- SELECT * from employee_basic-->
+        <include refid="findall-emp"/>
+         <where>
+             <!--
+              SELECT * from employee_basic
+            -->
+             <!--
+             <foreach collection="depts_id" open="dept_id =" separator="or dept_id =" item="i">
+                 #{i}
+             </foreach>
+             -->
+             <foreach collection="depts_id" open="dept_id in(" close=")" separator="," item="i">
+                 #{i}
+             </foreach>
+         </where>
+    </select>
+
+    <!--根据员工编号查询员工信息 -->
+    <select id="selectEmployeeById" parameterType="string" resultMap="employeeMap">
+        select * from employee_basic where emp_no=#{emp_id}
+    </select>
+
+    <select id="selectEmployeeByJobId" parameterType="string" resultType="Employee">
+        select * from employee_basic where  emp_no IN
+        (select emp_no from employee_job where  job_id = #{job_id})
+    </select>
+
+    <!-- 映射 Employee 对象的resultMap -->
+    <resultMap id="employeeMap" type="Employee">
+        <id property="emp_no" column="emp_no"/>
+        <result property="emp_name" column="emp_name"></result>
+        <result property="dept_id" column="dept_id"></result>
+        <result property="emp_gender" column="emp_gender"></result>
+        <result property="emp_email" column="emp_email"></result>
+        <result property="emp_marriage" column="emp_marriage"></result>
+        <result property="emp_health" column="emp_health"></result>
+        <result property="emp_nation" column="emp_nation"></result>
+        <result property="emp_zzmm" column="emp_zzmm"></result>
+        <result property="emp_blood" column="emp_blood"></result>
+        <result property="emp_state" column="emp_state"></result>
+         <!-- 一对一关联映射:association -->
+       <association property="employeeSchool" column="emp_no" javaType="EmployeeSchool"
+                    select="com.zxf.mapper.EmployeeSchoolMapper.selectEmployeeSchoolById"/>
+        <!-- 多对多映射的关键:collection -->
+        <collection property="jobs" javaType="ArrayList" column="emp_no"
+                    ofType="job" select="com.zxf.mapper.JobMapper.selectJobByEmpId"
+                    fetchType="lazy">
+            <id property="job_id" column="job_id"></id>
+            <result property="job_name" column="job_name"></result>
+            <result property="job_task" column="job_task"></result>
+        </collection>
+    </resultMap>
+
+    <!-- 根据部门 dept_id 查询员工信息，返回resultMap -->
+    <select id="selectEmployeeByDeptId" parameterType="string" resultMap="employeeResultMap">
+        SELECT * from employee_basic WHERE dept_id = #{dept_id}
+    </select>
+    <!-- 映射employee对象的resultMap -->
+    <resultMap id="employeeResultMap" type="Employee">
+        <id property="emp_no" column="emp_no"></id>
+        <result property="dept_id" column="dept_id"></result>
+        <result property="emp_name" column="emp_name"></result>
+        <result property="emp_email" column="emp_email"></result>
+        <result property="emp_gender" column="emp_gender"></result>
+        <result property="emp_zzmm" column="emp_zzmm"></result>
+        <result property="emp_marriage" column="emp_marriage"></result>
+        <result property="emp_nation" column="emp_nation"></result>
+        <result property="emp_health" column="emp_health"></result>
+        <result property="emp_blood" column="emp_blood"></result>
+        <result property="emp_state" column="emp_state"></result>
+          <!-- 多对一关联映射:association -->
+        <association property="dept"  javaType="dept">
+            <id  property="dept_id" column="dept_id"></id>
+            <result property="dept_name" column="dept_name"></result>
+            <result property="dept_manager" column="dept_manager"></result>
+        </association>
+    </resultMap>
+   <select id="selectEmployeeById_dept"  parameterType="string" resultMap="employeeResultMap">
+         SELECT * from employee_basic e ,dept d
+         WHERE e.dept_id = d.dept_id
+         and  e.emp_no = #{emp_no}
+   </select>
+
+</mapper>

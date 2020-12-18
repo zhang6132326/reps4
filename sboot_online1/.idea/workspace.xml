@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e758db3-9e10-4ccf-b715-57d737155fa6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fDddx8hHrP80qvGZiujPRTZnNn" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/开发学习视频/2020年全新spring boot+spring5+mybatis3课程课件资料/课程源码/第10章/第2集/demo-project" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_work_2020\sboot_online1\src\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.JdbcApp">
+    <configuration name="JdbcApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxf.JdbcApp" />
+      <module name="sboot_online1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1.test3_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sboot_online1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zxf" />
+      <option name="MAIN_CLASS_NAME" value="com.zxf.Main1" />
+      <option name="METHOD_NAME" value="test3_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sboot_online1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zxf" />
+      <option name="MAIN_CLASS_NAME" value="com.zxf.Main1" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1.test5_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sboot_online1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zxf" />
+      <option name="MAIN_CLASS_NAME" value="com.zxf.Main1" />
+      <option name="METHOD_NAME" value="test5_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sboot_online1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zxf" />
+      <option name="MAIN_CLASS_NAME" value="com.zxf.Main1" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sboot_online1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxf.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JdbcApp" />
+        <item itemvalue="JUnit.Main1.test3_1" />
+        <item itemvalue="JUnit.Main1.test5_1" />
+        <item itemvalue="JUnit.Main1.test6" />
+        <item itemvalue="JUnit.Main1.test5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e758db3-9e10-4ccf-b715-57d737155fa6" name="Default Changelist" comment="" />
+      <created>1595756687578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595756687578</updated>
+      <workItem from="1595756691701" duration="4434000" />
+      <workItem from="1595765391885" duration="5000" />
+      <workItem from="1595766321965" duration="1979000" />
+      <workItem from="1595828174305" duration="14697000" />
+      <workItem from="1595915251276" duration="3237000" />
+      <workItem from="1595936223451" duration="4029000" />
+      <workItem from="1595994931802" duration="11520000" />
+      <workItem from="1596080393378" duration="8443000" />
+      <workItem from="1596197139754" duration="1236000" />
+      <workItem from="1596289185638" duration="1013000" />
+      <workItem from="1596422824838" duration="14075000" />
+      <workItem from="1596507028688" duration="6933000" />
+      <workItem from="1596542263337" duration="3187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

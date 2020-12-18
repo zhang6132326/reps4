@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+          <table border="1">
+              <tr th:each="city:${citys}">
+                  <td th:text="${city.id}"></td>
+                  <td th:text="${city.name}"></td>
+              </tr>
+          </table>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.FlowerMapper">
+       <select id="getAll2" resultType="flower">
+          select * from flower
+       </select>
+
+       <insert id="saveFlower" parameterType="flower">
+           INSERT flower(name,price,production) VALUES (#{name},#{price},#{production})
+       </insert>
+
+      <update id="updateFlower" parameterType="flower">
+          UPDATE flower set name=#{name},price=#{price},production=#{production}
+             where id=#{id}
+      </update>
+      <delete id="delFlower" parameterType="int">
+          DELETE  from flower where id=#{id}
+      </delete>
+    <select id="findByidFlower" parameterType="int" resultType="flower">
+          SELECT * from flower where id=#{id}
+    </select>
+    <select id="findBylike" parameterType="string" resultType="flower">
+           SELECT * from flower where name like #{name}
+
+    </select>
+    <select id="getAllSize" resultType="int">
+        select count(*) from flower;
+    </select>
+
+    <select id="findFlowerByCondition" resultType="flower" parameterType="flower">
+        SELECT * FROM flower WHERE 1=1
+        <if test="name !=null and name!='' ">
+            and name=#{name}
+        </if>
+        <if test="production !=null  and production!='' ">
+            and production=#{production}
+        </if>
+    </select>
+
+    <select id="findFlowerByCondition2" resultType="flower" parameterType="flower">
+        SELECT * FROM flower
+        <where>
+        <if test="name !=null and name!='' ">
+            and name=#{name}
+        </if>
+        <if test="production !=null  and production!='' ">
+            and production=#{production}
+        </if>
+        </where>
+    </select>
+
+
+</mapper>

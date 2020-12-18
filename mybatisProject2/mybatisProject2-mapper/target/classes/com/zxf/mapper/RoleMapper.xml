@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.RoleMapper">
+       <resultMap id="roleMap" type="role">
+           <id property="id" column="id"></id>
+           <result property="role_name" column="role_name"></result>
+           <result property="role_desc" column="role_desc"></result>
+           <collection property="users" ofType="users">
+               <id property="userid" column="userid"></id>
+               <result property="username" column="username"></result>
+               <result property="text" column="text"></result>
+               <result property="userage" column="userage"></result>
+           </collection>
+           
+       </resultMap>
+       <select id="finAll" resultType="role">
+           SELECT * from role
+       </select>
+    
+    <select id="finall_u_r" resultMap="roleMap">
+        select  u.*,r.role_name ,r.role_desc,ur.*
+   from
+	  role r left outer join user_role ur on r.id=ur.rid
+					 left outer join users u on u.userid=ur.uid
+
+    </select>
+</mapper>

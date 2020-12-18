@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.2.xsd"
+       xmlns:aop="http://www.springframework.org/schema/aop">
+    <bean id="timeHandler" class="com.zxf.aop.TimeHandler"/>
+    <bean id="videoService" class="com.zxf.service.VideoServiceImpl"/>
+    <!--aop配置-->
+    <aop:config>
+        <!--横切关注点-->
+        <aop:aspect id="timeAspect" ref="timeHandler">
+            <!-- 定义切入点表达式 -->
+            <aop:pointcut id="allMethodLoogPontCut" expression="execution(* com.zxf.service.VideoService.*(..))"/>
+            <!--<aop:pointcut id="allMethodLoogPontCut" expression="execution(* com.zxf.service.VideoService.sa*(..))"/> -->
+            <!--配置前置通知和后置通知-->
+            <aop:before method="printBefore" pointcut-ref="allMethodLoogPontCut"/>
+            <aop:after method="printAfter" pointcut-ref="allMethodLoogPontCut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "name": "emp",
+      "type": "com.zxf.pojo.Employee",
+      "sourceType": "com.zxf.pojo.Employee"
+    },
+    {
+      "name": "flower",
+      "type": "com.zxf.pojo.Flower",
+      "sourceType": "com.zxf.pojo.Flower"
+    }
+  ],
+  "properties": [
+    {
+      "name": "emp.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zxf.pojo.Employee"
+    },
+    {
+      "name": "emp.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.zxf.pojo.Employee"
+    },
+    {
+      "name": "emp.dept",
+      "type": "com.zxf.pojo.Deptment",
+      "sourceType": "com.zxf.pojo.Employee"
+    },
+    {
+      "name": "emp.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.zxf.pojo.Employee"
+    },
+    {
+      "name": "emp.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.zxf.pojo.Employee"
+    },
+    {
+      "name": "emp.name",
+      "type": "java.lang.String",
+      "sourceType": "com.zxf.pojo.Employee"
+    },
+    {
+      "name": "emp.sex",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zxf.pojo.Employee"
+    },
+    {
+      "name": "flower.faddress",
+      "type": "java.lang.String",
+      "sourceType": "com.zxf.pojo.Flower"
+    },
+    {
+      "name": "flower.fname",
+      "type": "java.lang.String",
+      "sourceType": "com.zxf.pojo.Flower"
+    },
+    {
+      "name": "flower.fprice",
+      "type": "java.lang.Float",
+      "sourceType": "com.zxf.pojo.Flower"
+    }
+  ],
+  "hints": []
+}

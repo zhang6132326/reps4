@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mybastisProject2-web:war">
+    <output-path>$PROJECT_DIR$/mybastisProject2-web/target</output-path>
+    <root id="archive" name="mybastisProject2-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mybastisProject2-web:war exploded" />
+    </root>
+  </artifact>
+</component>

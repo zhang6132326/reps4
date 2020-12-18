@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/aop
+          http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="h1" class="com.zxf.bean.Bean1">
+        <!-- set属性赋值-->
+        <property name="name" value="风学长"/>
+        <!-- 构造方法赋值-->
+        <constructor-arg value="小峰" type="java.lang.String"/>
+    </bean>
+    <bean id="s1" class="com.zxf.bean.Student">
+        <property name="name" value="王同学"/>
+
+        <property name="teacher" ref="t1"/>
+
+    </bean>
+        <bean id="t1" class="com.zxf.bean.Teacher">
+        <property name="name" value="张老师"/>
+    </bean>
+    <!--使用autowire完成自动装配 -->
+    <bean id="address" class="com.zxf.auto.Address">
+         <property name="address_name" value="沈阳的房子"/>
+    </bean>
+    <bean id="car" class="com.zxf.auto.Car">
+        <property name="car_name" value="BMW别摸我汽车"/>
+    </bean>
+    <bean id="person" class="com.zxf.auto.Person" autowire="byName"/>
+</beans>

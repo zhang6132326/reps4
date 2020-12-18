@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.DeptMapper">
+    <select id="getDeptById" resultType="dept">
+        select * from dept where dept_id=#{dept_id}
+    </select>
+
+    <resultMap id="dept_emp" type="dept">
+          <id property="dept_id" column="dept_id"/>
+        <result property="dept_name" column="dept_name"/>
+        <result property="dept_manager" column="dept_manager"/>
+        <collection fetchType="lazy" property="employees" ofType="emp"
+                    select="com.zxf.mapper.EmployeeMapper.getByIdDept" column="dept_id">
+            <id property="emp_no" column="emp_no"/>
+            <result property="emp_name" column="emp_name"/>
+        </collection>
+    </resultMap>
+    <select id="getDeptById_Emp" resultMap="dept_emp">
+        select * from dept where dept_id=#{dept_id}
+    </select>
+
+    <resultMap id="dept_emp2" type="dept">
+        <id property="dept_id" column="dept_id"/>
+        <result property="dept_name" column="dept_name"/>
+        <result property="dept_manager" column="dept_manager"/>
+        <collection property="employees" ofType="emp" >
+            <id property="emp_no" column="emp_no"/>
+            <result property="emp_name" column="emp_name"/>
+        </collection>
+    </resultMap>
+    <select id="getDeptById_Emp2" resultMap="dept_emp2">
+        select  e.emp_no, e.emp_name,d.dept_name,d.dept_id
+        from dept d
+        left join employee_basic e
+        on d.dept_id=e.dept_id
+        where d.dept_id=#{dept_id}
+
+    </select>
+</mapper>

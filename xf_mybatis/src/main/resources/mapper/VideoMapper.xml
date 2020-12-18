@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.dao.VideoMapper">
+    <sql id="base_video_field">
+        id,title,summary,cover_img,price,create_time,point
+    </sql>
+      <!--配置当前mapper配置-->
+      <!-- LRU 最近最少使用的，一处最长时间不用的对象
+           flushInterval 刷新间隔时间，没有配置的时候SQL执行的时候才会刷新缓存。
+           size 引用数目，代表缓存最多可以存储多少对象，设置过大会溢出。
+           readOnly 缓存数据只能读取 不能修改。默认为false
+      -->
+    <cache eviction="LRU" flushInterval="100000" readOnly="true" size="1024"/>
+                                                  <!--useCache单独给某个方法是否执行二级缓存 -->
+     <select id="selectById" resultType="video" useCache="true">
+         select * from video where id=#{video_id}
+     </select>
+    <select id="selectListByXML" resultType="video">
+        select <include refid="base_video_field"/> from video
+    </select>
+    <select id="selectByPointAndTitleLike" resultType="video">
+         select <include refid="base_video_field"/> from video where point>#{point} and title like concat('%',#{title},'%')
+    </select>
+    <insert id="add" parameterType="video" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+  <!--useGeneratedKeys插入完内容以后，使用输出语句就可以看到video对象在数据库中的值，尤其是id 如果不配置id就无法获取 就是0 -->
+         insert into video (`title`,`summary`,`cover_img`,`price`,`create_time`,`point`)
+         values
+         (#{title},#{summary},#{coverImg},#{price},#{createTime},#{point})
+    </insert>
+    <!--批量插入-->
+   <insert id="addBatch" parameterType="video">
+       insert into video (`title`,`summary`,`cover_img`,`price`,`create_time`,`point`)
+       value
+       <foreach collection="list" item="videoa" separator=",">
+           (#{videoa.title},#{videoa.summary},#{videoa.coverImg},#{videoa.price},#{videoa.createTime},#{videoa.point})
+       </foreach>
+   </insert>
+
+    <update id="updateVideo" parameterType="video">
+        update video
+        set
+        title=#{title},
+        summary=#{summary},
+        cover_img=#{coverImg},
+         price=#{price},
+          create_time=#{createTime},
+           point=#{point}
+           where
+              id=#{id}
+    </update>
+    <update id="updateVideoSelective" parameterType="video">
+         update video
+         <trim prefix="set"  suffixOverrides=","> <!--去掉最后面一个， -->
+             <if test="title != null"> title=#{title},</if>
+             <if test="summary != null"> summary=#{summary},</if>
+             <if test="coverImg != null"> cover_img=#{coverImg},</if>
+             <if test="price != null">  price=#{price},</if>
+             <if test="createTime != null"> create_time=#{createTime},</if>
+             <if test="point != null">   point=#{point},</if> <!--这里可以有","因为前面的标签可以清除。 -->
+         </trim>
+        where
+          id=#{id}
+    </update>
+   <delete id="deleteByCreateTimeAndPrice" parameterType="java.util.Map">
+       delete from video
+        where create_time <![CDATA[ > ]]> #{createTime} and price <![CDATA[ >= ]]> #{price}
+   </delete>
+
+    <resultMap id="VideoResultMap" type="video">
+        <!--
+           id 指定查询列的唯一标识
+           column 数据库字段名称
+           property  pojo 类名称
+        -->
+        <id column="id" property="id"/>
+        <result column="t" property="title"/>
+        <result column="s" property="summary"/>
+        <result column="cover_img" property="coverImg"/>
+        <result column="price" property="price"/>
+        <result column="ct" property="createTime"/>
+        <result column="p" property="point"/>
+    </resultMap>
+    <select id="selectBaseFieldByidWithResultMap" resultMap="VideoResultMap">
+      <!--  select <include refid="base_video_field"/>  from video where id=#{video_id} -->
+      select title as t,summary as s,cover_img,price,create_time as ct,point as p  from video where id=#{video_id}
+    </select>
+
+</mapper>

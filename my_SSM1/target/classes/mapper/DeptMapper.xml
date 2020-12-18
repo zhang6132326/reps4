@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.DeptMapper">
+    <insert id="saveDept" parameterType="dept">
+        insert into dept (dept_id,dept_name,dept_manager) VALUES (#{dept_id},#{dept_name},#{dept_manager})
+    </insert>
+    <select id="getAlldept" resultType="dept">
+        select dept_id,dept_name,dept_manager from dept
+    </select>
+</mapper>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <bean id="mybefore" class="com.zxf.advice.MyBeforeAdvice"/>
+    <bean id="after" class="com.zxf.advice.MyAfterAdvice"/>
+    <bean id="mythrow" class="com.zxf.advice.MyThrowAdvice"/><!--就是刚刚写的那个异常消息类 -->
+    <bean id="myarround" class="com.zxf.advice.MyArround"/>
+<aop:config>
+       <aop:pointcut id="aop1" expression="execution(* com.zxf.demo.*.*(..))"/>
+       <!--* 代表所有的意思 -->
+       <!--com.zxf.demo.Demo1.*(..)) Demo1类下的所有方法 -->
+       <!--com.zxf.demo.*.*(..)) demo包下的所有类和方法 -->
+    <aop:advisor advice-ref="after" pointcut-ref="aop1"/>
+    <aop:advisor advice-ref="mybefore" pointcut-ref="aop1"/>
+    <!-- 环绕通知-->
+    <aop:advisor advice-ref="myarround" pointcut-ref="aop1"/>
+
+    <aop:aspect ref="mythrow"> <!--定义Spring异常处理 -->
+        <aop:pointcut id="myex1" expression="execution(* com.zxf.demo.Demo1.demo1(..))"/><!--这里是有可能出现异常的地方,就是那个5/0的地方 -->
+        <aop:after-throwing method="myexeception" pointcut-ref="myex1"/>
+    </aop:aspect>
+
+
+
+
+</aop:config>
+<bean id="demo1" class="com.zxf.demo.Demo1"/>
+<bean id="demo2" class="com.zxf.demo.Demo2"/>
+
+</beans>

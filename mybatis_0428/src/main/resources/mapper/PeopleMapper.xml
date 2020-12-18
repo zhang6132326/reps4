@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.PeopleMapper">
+    <resultMap id="peo" type="people">
+       <id property="p_id" column="id"/>
+       <result property="p_name" column="name"/>
+        <result property="p_age" column="age"/>
+    </resultMap>
+    <select id="getAll" resultMap="peo">
+        select * from people
+    </select>
+    <insert id="savePeople" parameterType="com.zxf.pojo.People">
+        insert into people (name,age) values(#{p_name},#{p_age})
+    </insert>
+    <select id="findbyPe"   parameterType="People"  resultMap="peo">
+        select * from people where 1=1
+        <if test="p_name !=null and p_name !='' ">
+            and name like #{p_name}
+        </if>
+        <if test="p_age !=null and p_age !=''">
+            and age > #{p_age}
+        </if>
+    </select>
+    <select id="finByidS" parameterType="People" resultMap="peo">
+         select * from people
+         <where>
+             <!--
+             <foreach collection="p_ids" open="id=" separator="or id=" item="i">
+                 #{i}
+             </foreach>
+             -->
+             <foreach collection="p_ids" open="id in (" close=")" separator="," item="i">
+                 #{i}
+             </foreach>
+
+         </where>
+    </select>
+</mapper>

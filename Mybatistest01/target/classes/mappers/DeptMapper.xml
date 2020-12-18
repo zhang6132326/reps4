@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.DeptMapper">
+    <!-- 根据 dept_id 查询部门信息，返回resultMap -->
+    <select id="selectDeptById" parameterType="string" resultMap="deptResultMap">
+        SELECT * from dept WHERE dept_id=#{dept_id}
+    </select>
+    <!-- 映射 Dept 对象的 resultMap -->
+    <resultMap id="deptResultMap" type="dept">
+        <id property="dept_id" column="dept_id"/>
+        <result property="dept_name" column="dept_name"></result>
+        <result property="dept_manager" column="dept_manager"></result>
+        <!-- 一对多关联映射:collection fetchType="lazy"表示延迟加载 -->
+          <collection property="employees" javaType="ArrayList"
+                      column="dept_id" ofType="Employee"
+                      select="com.zxf.mapper.EmployeeMapper.selectEmployeeByDeptId">
+              <id property="emp_no" column="emp_no"></id>
+              <result property="dept_id" column="dept_id"></result>
+              <result property="emp_name" column="emp_name"></result>
+              <result property="emp_email" column="emp_email"></result>
+              <result property="emp_gender" column="emp_gender"></result>
+              <result property="emp_marriage" column="emp_marriage"></result>
+              <result property="emp_health" column="emp_health"></result>
+              <result property="emp_nation" column="emp_nation"></result>
+              <result property="emp_zzmm" column="emp_zzmm"></result>
+              <result property="emp_blood" column="emp_blood"></result>
+              <result property="emp_state" column="emp_state"></result>
+          </collection>
+    </resultMap>
+</mapper>

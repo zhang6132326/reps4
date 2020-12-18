@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60c3fb7b-5edc-4489-94a6-d90cb43ef69c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/mybatisProject2-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/mybatisProject2-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/mybatisProject3-serveice/target/" />
+    <ignored path="$PROJECT_DIR$/mybastisProject2-web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysqllocalhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysqllocalhost" type="feb32156:DbDataSourceImpl" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysqllocalhost" type="feb32156:DbDataSourceImpl" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="employee_school: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <folding>
+                <marker date="1585444987225" expanded="true" signature="358:405" ph="SELECT * FRO... employee_basic" />
+                <marker date="1585444987225" expanded="true" signature="1221:1276" ph="SELECT * FRO... employee_basic" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test6.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="46" column="99" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="XML Properties File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>selByAccInAccount</find>
+      <find>findFlowin</find>
+      <find>selectEmployeeByDeptId</find>
+      <find>selectEmployeeById</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test1.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Flower.java" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/main/resouces/jdbc.properties" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/FlowerMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/FlowerMapper.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/18524bb1-fe37-42d6-9cb8-28b46106c8d1/console.sql" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/AccountMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test2.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Account.java" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test3.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/UsersMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Role.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Users.java" />
+        <option value="$PROJECT_DIR$/mybastisProject2-web/src/main/java/com/zxf/service/util/MyBatisUtil.java" />
+        <option value="$PROJECT_DIR$/mybastisProject2-web/src/main/java/com/zxf/service/filter/OpenSessionInView.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/PageInfo.java" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/main/java/com/zxf/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/util/MyBatisUtil.java" />
+        <option value="$PROJECT_DIR$/mybastisProject2-web/src/main/webapp/show.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mybastisProject2-web/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Student.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Teacher.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/TeacherMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/main/java/com/zxf/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mybastisProject2-web/src/main/java/com/zxf/service/action/ShowServlet.java" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test4.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/TeacherMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test5.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/EmployeeSchool.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeSchool.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeSchool.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeSchoolMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeSchoolMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Employee.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/util/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Dept.java" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/main/resouces/zhangMyBatis.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test8.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test7.java" />
+        <option value="$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test6.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="H:\maven-local-aliyun2" />
+        <option name="mavenHome" value="H:/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="H:\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybastisProject2-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybastisProject2-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybastisProject2-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybastisProject2-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybastisProject2-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject2-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject3-serveice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject3-serveice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject3-serveice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject3-serveice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject3-serveice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resouces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject3-serveice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject3-serveice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProject3-serveice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zxf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_work_2020\mybatisProject2\mybastisProject2-web\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\IDEA_work_2020\mybatisProject2\mybatisProject3-serveice\src\main" />
+      <recent name="H:\IDEA_work_2020\mybatisProject2\src\main" />
+      <recent name="H:\IDEA_work_2020\mybatisProject2\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Test6.test2">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="Test5.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatisProject3-serveice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zxf" />
+      <option name="MAIN_CLASS_NAME" value="com.zxf.Test5" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Test6.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatisProject3-serveice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zxf" />
+      <option name="MAIN_CLASS_NAME" value="com.zxf.Test6" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Test6.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatisProject3-serveice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zxf" />
+      <option name="MAIN_CLASS_NAME" value="com.zxf.Test6" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Test7.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatisProject3-serveice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zxf" />
+      <option name="MAIN_CLASS_NAME" value="com.zxf.Test7" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Test8.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatisProject3-serveice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zxf" />
+      <option name="MAIN_CLASS_NAME" value="com.zxf.Test8" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Test5.test1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Test6.test1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Test6.test2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test7.test1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Test8.test1" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Test6.test2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Test6.test1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Test7.test1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Test8.test1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Test5.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60c3fb7b-5edc-4489-94a6-d90cb43ef69c" name="Default" comment="" />
+      <created>1584936550905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584936550905</updated>
+      <workItem from="1584936552360" duration="9889000" />
+      <workItem from="1584961353860" duration="9625000" />
+      <workItem from="1585019387616" duration="2750000" />
+      <workItem from="1585025487352" duration="5785000" />
+      <workItem from="1585045631352" duration="3623000" />
+      <workItem from="1585106688913" duration="7961000" />
+      <workItem from="1585135460022" duration="4883000" />
+      <workItem from="1585200162619" duration="10478000" />
+      <workItem from="1585273619890" duration="113000" />
+      <workItem from="1585273750086" duration="3225000" />
+      <workItem from="1585299805716" duration="8237000" />
+      <workItem from="1585315776935" duration="4427000" />
+      <workItem from="1585374601590" duration="8963000" />
+      <workItem from="1585441544136" duration="3635000" />
+      <workItem from="1585632321643" duration="24000" />
+      <workItem from="1586751573904" duration="1331000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test6_test2 - 2020.04.13 at 12h 19m 57s.xml">
+      <configuration name="Test6.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test6_test2 - 2020.04.13 at 12h 21m 09s.xml">
+      <configuration name="Test6.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test6_test2 - 2020.04.13 at 12h 21m 22s.xml">
+      <configuration name="Test6.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test7_test1 - 2020.03.29 at 09h 16m 07s.xml">
+      <configuration name="Test7.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test7_test1 - 2020.03.29 at 09h 16m 27s.xml">
+      <configuration name="Test7.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test7_test1 - 2020.03.29 at 09h 17m 31s.xml">
+      <configuration name="Test7.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test7_test1 - 2020.03.29 at 09h 18m 55s.xml">
+      <configuration name="Test7.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test7_test1 - 2020.03.29 at 09h 19m 46s.xml">
+      <configuration name="Test7.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test7_test1 - 2020.03.29 at 09h 20m 41s.xml">
+      <configuration name="Test7.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test7_test1 - 2020.03.29 at 09h 23m 08s.xml">
+      <configuration name="Test7.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="84949000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70555556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20895523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55222225" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6706499c/18524bb1-fe37-42d6-9cb8-28b46106c8d1/test.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6706499c/18524bb1-fe37-42d6-9cb8-28b46106c8d1/test.account">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6706499c/18524bb1-fe37-42d6-9cb8-28b46106c8d1/test.role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <marker date="1585228660970" expanded="true" signature="871:889" ph="SELECT * fro... role" />
+            <marker date="1585228660970" expanded="true" signature="969:1121" ph="select u.*,r... role" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-773">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6706499c/18524bb1-fe37-42d6-9cb8-28b46106c8d1/test.student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#317#318#0" expanded="false" />
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#393#394#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#593#594#0" expanded="false" />
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#651#652#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#725#726#0" expanded="false" />
+            <element signature="e#757#758#0" expanded="false" />
+            <element signature="e#784#785#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#857#858#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1025#1026#0" expanded="false" />
+            <element signature="e#1053#1054#0" expanded="false" />
+            <element signature="e#1095#1096#0" expanded="false" />
+            <element signature="e#1129#1130#0" expanded="false" />
+            <element signature="e#1162#1163#0" expanded="false" />
+            <element signature="e#1194#1195#0" expanded="false" />
+            <element signature="e#1241#1242#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/util/MyBatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybastisProject2-web/src/main/java/com/zxf/service/filter/OpenSessionInView.java" />
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/main/java/com/zxf/service/StudentService.java" />
+    <entry file="file://$PROJECT_DIR$/mybastisProject2-web/src/main/webapp/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybastisProject2-web/src/main/webapp/show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="81" column="66" lean-forward="false" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybastisProject2-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/TeacherMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/StudentMapper.java" />
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/StudentMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/main/java/com/zxf/service/impl/StudentServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/mybastisProject2-web/src/main/java/com/zxf/service/action/ShowServlet.java" />
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/TeacherMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeSchool.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeSchool.java" />
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <marker date="1585223034548" expanded="true" signature="1055:1084" ph="SELECT * fro... users" />
+            <marker date="1585223034548" expanded="true" signature="1558:1577" ph="SELECT * fro... users" />
+            <marker date="1585223034548" expanded="true" signature="2044:2108" ph="SELECT * fro... users" />
+            <marker date="1585223034548" expanded="true" signature="2044:2150" ph="SELECT * fro... users" />
+            <marker date="1585223034548" expanded="true" signature="2245:2274" ph="SELECT * fro... users" />
+            <marker date="1585223034548" expanded="true" signature="2735:2754" ph="SELECT * fro... users" />
+            <marker date="1585223034548" expanded="true" signature="2835:2901" ph="select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6706499c/18524bb1-fe37-42d6-9cb8-28b46106c8d1/test.employee_school">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/EmployeeSchool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
+            <element signature="e#356#357#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#460#461#0" expanded="false" />
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#670#671#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#822#823#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#896#897#0" expanded="false" />
+            <element signature="e#928#929#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/main/resouces/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="54" />
+          <folding>
+            <marker date="1585220371368" expanded="true" signature="1126:1139" ph="SELECT * FRO... " />
+            <marker date="1585220371368" expanded="true" signature="1126:1147" ph="SELECT * FRO... account" />
+            <marker date="1585220371368" expanded="true" signature="1227:1287" ph="SELECT a.*,u... account" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#650#651#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#758#759#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#908#909#0" expanded="false" />
+            <element signature="e#948#949#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1096#1097#0" expanded="false" />
+            <element signature="e#1133#1134#0" expanded="false" />
+            <element signature="e#1166#1167#0" expanded="false" />
+            <element signature="e#1218#1219#0" expanded="false" />
+            <element signature="e#1262#1263#0" expanded="false" />
+            <element signature="e#1298#1299#0" expanded="false" />
+            <element signature="e#1330#1331#0" expanded="false" />
+            <element signature="e#1380#1381#0" expanded="false" />
+            <element signature="e#1422#1423#0" expanded="false" />
+            <element signature="e#1466#1467#0" expanded="false" />
+            <element signature="e#1498#1499#0" expanded="false" />
+            <element signature="e#1556#1557#0" expanded="false" />
+            <element signature="e#1598#1599#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/main/resouces/zhangMyBatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <marker date="1585444058883" expanded="true" signature="343:386" ph="SELECT * fro... dept" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-pojo/src/main/java/com/zxf/pojo/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#422#423#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#487#488#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#696#697#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#775#776#0" expanded="false" />
+            <element signature="e#815#816#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#925#926#0" expanded="false" />
+            <element signature="e#963#964#0" expanded="false" />
+            <element signature="e#1000#1001#0" expanded="false" />
+            <element signature="e#1033#1034#0" expanded="false" />
+            <element signature="e#1085#1086#0" expanded="false" />
+            <element signature="e#1129#1130#0" expanded="false" />
+            <element signature="e#1165#1166#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1247#1248#0" expanded="false" />
+            <element signature="e#1289#1290#0" expanded="false" />
+            <element signature="e#1338#1339#0" expanded="false" />
+            <element signature="e#1375#1376#0" expanded="false" />
+            <element signature="e#1443#1444#0" expanded="false" />
+            <element signature="e#1495#1496#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeSchoolMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeSchoolMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="59" />
+          <folding>
+            <marker date="1585383859768" expanded="true" signature="322:374" ph="SELECT * fro... employee_school" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject2-mapper/src/main/java/com/zxf/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <marker date="1585444987225" expanded="true" signature="358:405" ph="SELECT * FRO... employee_basic" />
+            <marker date="1585444987225" expanded="true" signature="1221:1276" ph="SELECT * FRO... employee_basic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisProject3-serveice/src/test/java/com/zxf/Test6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="46" column="99" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

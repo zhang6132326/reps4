@@ -1,0 +1,8 @@
+package com.zxf;
+
+
+
+public class H1 {
+   private int a;
+   private String q;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namesapce:理解成实现类的全路径(包名+类名) -->
+<mapper namespace="a.b">
+     <select id="selAll" resultType="com.zxf.pojo.Flower">
+         select * from flower
+     </select>
+    <select id="selById" resultType="int">
+        SELECT count(*) from flower
+    </select>
+    <select id="c" resultType="map">
+        SELECT id,name,price,production from flower
+    </select>
+    <select id="selById2" resultType="com.zxf.pojo.Flower" parameterType="int">
+        SELECT * from flower  where id=#{0}
+    </select>
+    <select id="selById3" resultType="com.zxf.pojo.Flower" parameterType="com.zxf.pojo.Flower">
+        SELECT * from flower  where id=#{id}
+    </select>
+    <select id="selById4" resultType="com.zxf.pojo.Flower" parameterType="map">
+        SELECT * from flower  where id=#{id} and name=#{name}
+    </select>
+    <!-- 这里的f1使用了别名，在核心配置文件中定义了。-->
+    <select id="page"  resultType="fl" parameterType="map">
+        SELECT * from flower limit #{pageStart},#{pageSize}
+    </select>
+    <insert id="ins" parameterType="fl" >
+            INSERT INTO flower(name,price,production) VALUES (#{name},#{price},#{production})
+    </insert>
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatisProject-mapper" />
+        <module name="mybatisProject-pojo" />
+        <module name="mybatisProject-service" />
+        <module name="mybatisProject-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatisProject" target="1.5" />
+      <module name="mybatisProject-mapper" target="1.5" />
+      <module name="mybatisProject-pojo" target="1.5" />
+      <module name="mybatisProject-service" target="1.5" />
+      <module name="mybatisProject-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.DeptMapper">
+    <select id="getallE_D" resultType="emp_dept">
+        select e.*,d.dept_manager,d.dept_manager,d.dept_name  from  employee_basic e,dept d where d.dept_id=e.dept_id
+    </select>
+    <resultMap id="dept_allemp" type="dept">
+        <id property="dept_id" column="dept_id"/>
+        <result property="dept_name" column="dept_name"/>
+        <result property="dept_manager" column="dept_manager"/>
+        <collection property="employees" ofType="employee">
+           <id property="emp_no" column="emp_no"/>
+            <result property="emp_name" column="emp_name"/>
+        </collection>
+    </resultMap>
+    <select id="getall_dept_allemp" resultMap="dept_allemp">
+       select e.*,d.dept_name,d.dept_manager from dept d,employee_basic e where d.dept_id=e.dept_id
+    </select>
+</mapper>

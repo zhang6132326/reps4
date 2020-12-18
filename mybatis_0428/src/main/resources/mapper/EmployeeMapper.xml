@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxf.mapper.EmployeeMapper">
+    <select id="findAll" resultType="com.zxf.pojo.Employee">
+        select * from employee_basic
+    </select>
+    <insert id="saveEmp" parameterType="com.zxf.pojo.Employee">
+        insert into employee_basic (emp_no,emp_name,dept_id,emp_gender,emp_email,emp_nation,emp_marriage,emp_health,emp_zzmm,emp_blood,emp_state)
+        values(#{emp_no},#{emp_name},#{dept_id},#{emp_gender},#{emp_email},#{emp_nation},#{emp_marriage},#{emp_health},#{emp_zzmm},#{emp_blood},#{emp_state})
+    </insert>
+    <update id="updateEmp" parameterType="com.zxf.pojo.Employee">
+        update employee_basic set emp_name=#{emp_name},emp_email=#{emp_email} where emp_no=#{emp_no}
+    </update>
+    <delete id="delEmp" parameterType="string">
+        delete from employee_basic where emp_no=#{emp_no}
+    </delete>
+    <select id="findByidEmp" parameterType="string" resultType="com.zxf.pojo.Employee">
+        select * from employee_basic where emp_no=#{emp_no}
+    </select>
+    <select id="findLikeEmp" resultType="com.zxf.pojo.Employee" parameterType="string">
+        select * from employee_basic where emp_name like #{emp_name}
+    </select>
+    <select id="getCountEmp" resultType="int">
+        select count(*) from employee_basic
+    </select>
+    <resultMap id="emp_dept" type="employee">
+         <id property="emp_no" column="emp_no"/>
+        <result property="emp_name" column="emp_name"/>
+        <result property="emp_email" column="emp_email"/>
+        <result property="emp_state" column="emp_state"/>
+        <result property="emp_blood" column="emp_blood"/>
+        <association property="dept" column="dept_id" javaType="dept">
+            <id property="dept_id" column="dept_id"/>
+            <result property="dept_name" column="dept_name"></result>
+        </association>
+    </resultMap>
+
+    <select id="getallEmp_dep" resultMap="emp_dept">
+           select e.*,d.dept_id,d.dept_name from employee_basic e,dept d where e.dept_id=d.dept_id
+    </select>
+</mapper>

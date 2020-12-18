@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+   <bean id="video" class="com.zxf.domain.Video">
+         <property name="id" value="23"/>
+         <property name="title" value="Spring5开始了"/>
+   </bean>
+   -->
+    <bean id="video" class="com.zxf.domain.Video" scope="singleton">
+        <property name="id" value="234"/>
+        <constructor-arg name="title" value="调用了Video中带有参数的构造方法。"/>
+        <!-- list-->
+        <property name="chapterList">
+            <list>
+                <value>第1张</value>
+                <value>第2张</value>
+                <value>第3张</value>
+            </list>
+        </property>
+        <!-- map-->
+        <property name="videoMap">
+            <map>
+                <entry key="1" value="zhangxuefeng"></entry>
+                <entry key="2" value="wangxuefeng"></entry>
+                <entry key="3" value="lixuefeng"></entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="videoOrder" class="com.zxf.domain.VideoOrder" scope="singleton">
+        <property name="id" value="23"/>
+        <property name="outTradeNo" value="11223344556677889900"/>
+        <property name="video" ref="video"/>
+    </bean>
+
+
+
+    <bean id="person" class="com.zxf.domain.Person" scope="singleton" >
+       <property name="pid" value="11"/>
+        <property name="pname" value="zxf"/>
+
+    </bean>
+    <bean id="teacher" class="com.zxf.domain.Teacher" scope="singleton" parent="person" >
+        <property name="bj" value="java"/>
+    </bean>
+
+    <bean id="initTest" class="com.zxf.domain.InitTest" init-method="init" destroy-method="destory">
+        <property name="id" value="23"/>
+        <property name="title" value="我想看看声明周期"/>
+    </bean>
+
+</beans>

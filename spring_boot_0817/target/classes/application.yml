@@ -1,0 +1,58 @@
+server:
+  port: 8081
+spring: #指定用那个块
+  profiles:
+    active: prod
+---
+# 也可以分块定义。
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+# 也可以分块定义。
+server:
+  port: 8083
+spring:
+  profiles: prod
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#person:
+#  lastName: zhangsan
+#  age: 19
+#  boss: false
+#  birth: 1932/3/4
+#  address: 北京
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#     -zhang
+#     -ma2
+#     -yang2
+#  dog:
+#    name: wangwang-dog
+#    age: 11
+

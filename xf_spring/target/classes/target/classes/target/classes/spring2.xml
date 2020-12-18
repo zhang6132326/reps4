@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="dept" class="com.zxf.domain2.Dept">
+        <property name="dept_id" value="23"/>
+        <property name="dept_name" value="mysql部门"/>
+    </bean>
+    <!--
+    <bean id="dept" class="com.zxf.domain2.Dept">
+        <property name="dept_id" value="23"/>
+        <property name="dept_name" value="java部门"/>
+    </bean>
+    -->
+    <bean id="emp" class="com.zxf.domain2.Emp" autowire="byName">
+        <!--
+          byType  根据类型进行匹配 如果是这样就不能有2个完全相同的类的bean标签
+
+          byName  根据名字进行匹配
+        -->
+        <property name="id" value="001"/>
+        <property name="name" value="zxf"/>
+    </bean>
+</beans>

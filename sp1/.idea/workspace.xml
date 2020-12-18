@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b08db3a3-4cb6-444e-a46a-05dae7f1d29f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/controller/TestController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/returnJson/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/returnJson/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/returnJson/ReturnObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/returnJson/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/test/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/test/java/com/zxf/TestGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myweb1/src/main/java/com/example/myweb1/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myweb1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myweb1/src/main/webapp/a1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myweb1/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Ak47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Bread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Broom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/MagicFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/MagicStick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/ModernFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/MushRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/c_000/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/c_000/T01_WatIsThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/list/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/A1.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/Ocp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/asdf.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/dfdf.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/dffd.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/hgh.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/BadFlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/GoodFlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/NoFlyBehaviro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/PekinigDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/ToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/WildDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test1/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test1/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test1/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test1/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test2/Thread011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test2/Thread012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/JoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/MyRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/TicketRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/TicketRunnable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/A1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Abc.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/i18n/login.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/templates/thymeleaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1/src/test/java/com/zxf/test1/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring1.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="H:\maven-local-aliyun2" />
+        <option name="mavenHome" value="H:/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="H:\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jS4nLSJTZ6c2cYD38Mj3mxj20X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxf.spring4.Main" />
+      <module name="sp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.spring4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxf.spring2.Main2" />
+      <module name="sp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.spring2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxf.spring2.Main3" />
+      <module name="sp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.spring2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxf.spring.TestPerson" />
+      <module name="sp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.TestPerson" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b08db3a3-4cb6-444e-a46a-05dae7f1d29f" name="Default Changelist" comment="" />
+      <created>1603784324672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603784324672</updated>
+      <workItem from="1603784327040" duration="8835000" />
+      <workItem from="1603879810604" duration="1157000" />
+      <workItem from="1604138377137" duration="7615000" />
+      <workItem from="1604469030384" duration="4492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

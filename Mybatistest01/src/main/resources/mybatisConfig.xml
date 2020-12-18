@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 读取jdbc.properties属性文件-->
+    <properties resource="jdbc.properties"/>
+    <typeAliases>
+        <!-- 给某一个定义一个别名
+        <typeAlias type="com.zxf.pojo.Student" alias="student"/>
+                <typeAlias type="com.zxf.pojo.Employee" alias="employee"/>
+                -->
+        <!-- 定义整个包 以后再用的时候，直接写类名就行了-->
+        <package name="com.zxf.pojo"/>
+    </typeAliases>
+    <!--环境配置-->
+    <environments default="mysql_1">
+        <environment id="mysql_1">
+             <!-- 事务类型-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--是否使用连接池，内置的连接池 -->
+            <dataSource type="POOLED">
+                 <!--这里使用了jdbc.properties配置信息 -->
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 引入映射-->
+    <mappers>
+        <mapper resource="mappers/EmployeeMapper.xml"/>
+        <mapper resource="mappers/EmployeeSchoolMapper.xml"/>
+        <mapper resource="mappers/StudentMapper.xml"/>
+        <mapper resource="mappers/DeptMapper.xml"/>
+        <mapper resource="mappers/JobMapper.xml"/>
+    </mappers>
+</configuration>

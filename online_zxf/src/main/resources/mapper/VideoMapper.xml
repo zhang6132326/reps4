@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zxf.mapper.VideoMapper">
+  <select id="listVideo" resultType="Video">
+      select * from video
+  </select>
+    <select id="listVideoBanner" resultType="VideoBanner">
+        select * from  video_banner order by weight asc
+    </select>
+    <select id="findById" resultType="Video">
+         select * from video where id=#{video_id}
+    </select>
+
+    <resultMap id="videoDetailResultMap" type="Video">
+        <id column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="summary" property="summary"/>
+        <result column="cover_img" property="cover_img"/>
+        <result column="price" property="price"/>
+        <result column="create_time" property="create_time"/>
+        <result column="point" property="point"/>
+        <collection property="chapterList" ofType="Chapter">
+             <id column="id" property="id"/>
+            <result column="video_id" property="video_id"/>
+            <result column="title" property="title"/>
+            <result column="ordered" property="ordered"/>
+            <result column="create_time" property="create_time"/>
+
+              <collection property="episodeList" ofType="Episode">
+                  <id column="id" property="id"/>
+                  <result column="title" property="title"/>
+                  <result column="num" property="num"/>
+                  <result column="ordered" property="ordered"/>
+                  <result column="play_url" property="play_url"/>
+                  <result column="chapter_id" property="chapter_id"/>
+                  <result column="video_id" property="video_id"/>
+                  <result column="create_time" property="create_time"/>
+                  <result column="free" property="free"/>
+              </collection>
+
+        </collection>
+    </resultMap>
+    <select id="findDetailByid" resultMap="videoDetailResultMap">
+          select *
+          <!--
+        v.id, v.title,v.summary,v.cover_img,v.price,v.point,v.create_time,
+        c.id,c.title,c.ordered,c.create_time,c.video_id,
+        e.id,e.num,e.title,e.ordered,e.play_url,e.free,e.create_time,e.chapter_id -->
+          from
+             video v
+             left join
+             chapter c
+               on v.id=c.video_id
+
+             left join
+             episode e
+               on c.id=e.chapter_id
+           where
+             v.id=#{video_id}
+    </select>
+</mapper>

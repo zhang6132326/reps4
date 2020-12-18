@@ -1,0 +1,28 @@
+server:
+   port: 8081
+spring:
+   profiles:
+    active: z2
+---
+server:
+   port: 8082
+spring:
+   profiles: z1
+---
+server:
+     port: 8083
+spring:
+     profiles: z2
+
+
+
+
+emp:
+  birth: 1981/5/4
+  maps: { k1: zhang,k2: wang,k3: li}
+  lists:
+    - z1
+    - z2
+  dept:
+    dept_id: 1001
+    dept_name: java
