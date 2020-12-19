@@ -9,13 +9,12 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:zhang6132326/springcloud-config.git #GitHub上面的git仓库名字
+          uri: https://github.com/zhang6132326/springcloud-config.git #GitHub上面的git仓库名字
           #搜索目录
           search-paths:
             - springcloud-config
-      # 读取分支
+            # 读取分支
       label: master
-
 eureka:
   client:
     service-url:

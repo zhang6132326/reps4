@@ -2,256 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062e50fb-0c48-4bde-9ce2-d7c4566089c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumer-order80/src/main/java/com/zxf/springcloud/OrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumer-order80/src/main/java/com/zxf/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumer-order80/src/main/java/com/zxf/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerconsul-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerconsul-order80/src/main/java/com/zxf/springcloud/OrderConsulMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerconsul-order80/src/main/java/com/zxf/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerconsul-order80/src/main/java/com/zxf/springcloud/conntroller/OrderConsulController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerconsul-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerzk-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerzk-order80/src/main/java/com/zxf/springcloud/OrderZKMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerzk-order80/src/main/java/com/zxf/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerzk-order80/src/main/java/com/zxf/springcloud/controller/OrderZKController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-consumerzk-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-eureka-server7001/src/main/java/com/zxf/springcloud/EurekaMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-eureka-server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-eureka-server7002/src/main/java/com/zxf/springcloud/EurekaMain7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-eureka-server7003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-eureka-server7003/src/main/java/com/zxf/springcloud/EurekaMain7003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-eureka-server7003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/PayMentMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/PayMentMain8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8002/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/PayMentMain8003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/service/com/zxf/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8003/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8004/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8004/src/main/java/com/zxf/springcloud/PayMentMain8004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8004/src/main/java/com/zxf/springcloud/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-provider-payment8004/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-providerconsul-payment8006/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-providerconsul-payment8006/src/main/java/com/zxf/springcloud/PaymentMain8006.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-providerconsul-payment8006/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/cloud-providerconsul-payment8006/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/clound-api-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/clound-api-commons/src/main/java/com/zxf/springcloud/entities/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/clound-api-commons/src/main/java/com/zxf/springcloud/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/clound-api-commons/src/test/java/com/test1/DeepCloneableTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/clound-api-commons/src/test/java/com/test1/DeepProtoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/clound-api-commons/src/test/java/com/test1/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud2020_1/clound-api-commons/src/test/java/com/test2/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/zxf/springcloud/ConfigCenterMain3344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zxf/springcloud/OrderHystrixMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zxf/springcloud/controller/OrderHystrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zxf/springcloud/service/PaymentFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zxf/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/zxf/springcloud/OrderFeignMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/zxf/springcloud/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/zxf/springcloud/controller/OrderFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/zxf/springcloud/service/PaymentFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/zxf/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zxf/myrule/MySelfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zxf/springcloud/OrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zxf/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zxf/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zxf/springcloud/lib/LoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zxf/springcloud/lib/MyLB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/zxf/springcloud/OrderConsulMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/zxf/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/zxf/springcloud/controller/OrderConsulController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/zxf/springcloud/OrderZKMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/zxf/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/zxf/springcloud/controller/OrderZKController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/zxf/springcloud/EurekaMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/zxf/springcloud/EurekaMain7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7003/src/main/java/com/zxf/springcloud/EurekaMain7003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/zxf/springcloud/GateWayMain9527.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/zxf/springcloud/config/GateWayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/zxf/springcloud/filter/MyLogGateWayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zxf/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zxf/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/PaymentMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zxf/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/PaymentMain8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zxf/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/PaymentMain8003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/zxf/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/zxf/springcloud/PaymentMain8004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/java/com/zxf/springcloud/PaymentMain8006.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/java/com/zxf/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clound-api-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clound-api-commons/src/main/java/com/zxf/springcloud/entities/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clound-api-commons/src/main/java/com/zxf/springcloud/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/controller/TestController2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/returnJson/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/returnJson/Permissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/returnJson/ReturnObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/returnJson/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/java/com/zxf/test/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../family_service_platform/src/test/java/com/zxf/TestGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myweb1/src/main/java/com/example/myweb1/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myweb1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myweb1/src/main/webapp/a1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myweb1/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Ak47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Bread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Broom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/MagicFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/MagicStick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/ModernFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/MushRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/abstractfactory/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/c_000/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/c_000/T01_WatIsThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/config/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/controller/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/list/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/A1.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/Ocp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/asdf.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/dfdf.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/dffd.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/ocp/hgh.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/singleton/Mgr08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/BadFlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/GoodFlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/NoFlyBehaviro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/PekinigDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/ToyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/strategy/improve/WildDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test1/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test1/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test1/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test1/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test2/Thread011.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test2/Thread012.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/JoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/MyRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/TicketRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test3/TicketRunnable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/A1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Abc.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/java/com/zxf/test4/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/i18n/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/main/resources/templates/thymeleaf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sb1/src/test/java/com/zxf/test1/MyTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sbt_1104/src/main/java/com/zxf/controller/MyController1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sbt_1104/src/main/java/com/zxf/dao/CityDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sbt_1104/src/main/java/com/zxf/domain/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sbt_1104/src/main/java/com/zxf/service/CityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sbt_1104/src/main/resources/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sp1/src/main/resources/spring1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zookeeperapi/src/main/java/com/zxf/zookpeer/ZkCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zookeeperapi/src/main/java/com/zxf/zookpeer/ZookperConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zookeeperapi/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/zxf/springcloud/ConfigClientMain3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/zxf/springcloud/config/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/zxf/springcloud/ConfigCenterMain3344.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/zxf/springcloud/ConfigCenterMain3344.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -303,6 +61,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -334,11 +93,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -357,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigCenterMain3344">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-center-3344" />
       <extension name="coverage">
@@ -367,6 +126,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxf.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxf.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxf.springcloud.ConfigClientMain3355" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -413,19 +185,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderFeignMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-feign-order80" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zxf.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxf.springcloud.OrderFeignMain80" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-feign-hystrix-order80" />
       <extension name="coverage">
@@ -435,6 +194,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxf.springcloud.OrderHystrixMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxf.springcloud.OrderMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -502,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClientMain3355" />
         <item itemvalue="Spring Boot.ConfigCenterMain3344" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
         <item itemvalue="Spring Boot.OrderHystrixMain80" />
-        <item itemvalue="Spring Boot.OrderFeignMain80" />
       </list>
     </recent_temporary>
   </component>
@@ -518,17 +284,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d4d11307" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c7b36a53" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d4d11307" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c9e37e2b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c7b36a53" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@314fa5b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d4d11307" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4682677a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c7b36a53" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5f71ad15" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -572,7 +338,17 @@
       <workItem from="1608085834353" duration="5076000" />
       <workItem from="1608108040439" duration="6172000" />
       <workItem from="1608172161334" duration="6311000" />
+      <workItem from="1608354708291" duration="11176000" />
+      <workItem from="1608379988029" duration="10000" />
     </task>
+    <task id="LOCAL-00001" summary="修改了这里">
+      <created>1608354990760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608354990760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,5 +366,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改了这里" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了这里" />
   </component>
 </project>
