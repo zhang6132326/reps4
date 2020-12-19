@@ -11,3 +11,6 @@ public class ConfigCenterMain3344 {
         SpringApplication.run(ConfigCenterMain3344.class,args);
     }
 }
+/*
+     真是一个启动类
+ */
